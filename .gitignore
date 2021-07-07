@@ -1,0 +1,16 @@
+# Ignore file terraform.tfstate and terraform.tfstate.backup   
+!services/network/istio/manifests/charts
+**/terraform.tfstate
+**/*.tfstate.*
+**/terraform.tfstate.backup   
+**/.terraform   
+**/.terraform.tfstate.lock.info
+.terraform*
+./.terraform
+**/.terraform
+**/plan.out
+**/*.out
+# charts/
+*.lock
+**/*.pem
+**/*Zone.Identifier
