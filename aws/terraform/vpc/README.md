@@ -3,7 +3,7 @@
 This automation creates a secure VPC with
 1. Public and Private Subnets
 2. NAT Gateway, Internet Gateway, Route tables etc. 
-3. A Jump Server ( or Bastion Host ) to ssecurely access resources to be deployed in this VPC later
+3. A Jump Server ( or Bastion Host ) to securely access resources to be deployed in this VPC later
 
 The example assumes you have already deployed state storage backend using AWS S3 and DynamoDb. This step can be skipped for development and testing purpose by commenting the contents of backend.tf file
 
