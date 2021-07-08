@@ -15,9 +15,9 @@ The example assumes you have already deployed state storage backend using AWS S3
 ## Deployment Instructions
 ### Deploy a new VPC
 
-1. Configure AWS CLI
+1. Configure AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
-2. Configure terraform input variables in *terraform.tfvars* file
+2. Configure deployment input variables in *terraform.tfvars* file. ( Like AWS Region, CIDRs, Bastion Instance type etc. )
 
 3. Initialize terraform 
     ```
