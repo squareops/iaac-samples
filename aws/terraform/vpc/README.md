@@ -1,11 +1,11 @@
-# Terraform Automation for AWS VPC Configuration
+# Terraform Automation for AWS VPC
 
-This Automation creates a secure VPC with
+This automation creates a secure VPC with
 1. Public and Private Subnets
 2. NAT Gateway, Internet Gateway, Route tables etc. 
 3. A Jump Server ( or Bastion Host ) to ssecurely access resources to be deployed in this VPC later
 
-This example assumes you have already deployed state storage backend using AWS S3 and DynamoDb. This step can be skipped for development and testing purpose by commenting the contents of backend.tf file
+The example assumes you have already deployed state storage backend using AWS S3 and DynamoDb. This step can be skipped for development and testing purpose by commenting the contents of backend.tf file
 
 ### pre-requisites
 1. Terraform 1.0.0 :- https://www.terraform.io/docs/cli/install/apt.html
